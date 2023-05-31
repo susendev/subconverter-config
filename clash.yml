@@ -52,10 +52,6 @@ dns:
 #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
 
 rules:
-
-  # - DOMAIN-SUFFIX,bing.com,PROXY
-  # - DOMAIN-SUFFIX,bing.net,PROXY
-  - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
