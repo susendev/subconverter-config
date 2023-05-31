@@ -50,13 +50,13 @@ dns:
 #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
 #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
 
-rules:
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,tld-not-cn,PROXY
-  - RULE-SET,gfw,PROXY
-  - RULE-SET,greatfire,PROXY
-  - RULE-SET,telegramcidr,PROXY
-  - MATCH,ELSE
+# rules:
+#   - DOMAIN,clash.razord.top,DIRECT
+#   - DOMAIN,yacd.haishan.me,DIRECT
+#   - RULE-SET,private,DIRECT
+#   - RULE-SET,reject,REJECT
+#   - RULE-SET,tld-not-cn,PROXY
+#   - RULE-SET,gfw,PROXY
+#   - RULE-SET,greatfire,PROXY
+#   - RULE-SET,telegramcidr,PROXY
+#   - MATCH,ELSE
